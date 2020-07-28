@@ -7,6 +7,7 @@ import HighlightBatata from './components/HighlightBatata'
 import BannerBatata from './components/BannerBatata'
 import TagBatata from './components/TagBatata'
 import TitleBatata from './components/TitleBatata'
+import DescriptionBatata from './components/DescriptionBatata'
 
 // JSX = (J)ava(S)cript (X)ML
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <BannerBatata>
         <TagBatata>Front End</TagBatata>
         <TitleBatata>Gueio Runner - Kikano Reeves</TitleBatata>
+        <DescriptionBatata>O Luscas Melo nesse video fez o personagem kikano Reeves do jogo Gueio Runner</DescriptionBatata>
       </BannerBatata>
       <FooterBatata>
         <LogoBatata />
