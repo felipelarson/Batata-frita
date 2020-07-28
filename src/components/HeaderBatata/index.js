@@ -7,7 +7,7 @@ const HeaderBatata = styled.header`
   justify-content: space-between;
   padding: 30px 40px;
   background-color: var(--color-black-dark);
-  border-bottom: 4px solid var(--color-primary-medium);
+  border-bottom: 2px solid var(--color-primary-medium);
   
   @media(max-width: 800px){
     justify-content: center;

@@ -1,14 +1,19 @@
 import styled from 'styled-components'
+import Logo from './../Logo';
 
 const FooterBatata = styled.footer`
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: var(--color-black-dark);
-  color: var(--color-gray-light);
-  font-size: 16rem;
-  text-align: center;
-  padding: 9px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16rem;
+    background-color: var(--color-black-dark);
+    color: var(--color-gray-light);
+    padding: 20rem 0;
+    border-top: 2px solid var(--color-primary-medium);
+
+    & > ${Logo} {
+        margin-bottom: 15rem;
+    }
 `
 
 export default FooterBatata
