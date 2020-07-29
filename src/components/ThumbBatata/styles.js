@@ -20,7 +20,7 @@ export const Thumb = styled.img`
 export const WrapperThumb = styled.figure`
   --space: -10rem;
   position: relative;
-  border: 4rem solid var(--color-frontend);
+  border: 4rem solid var(--color-mobile);
   width: 640px;
   overflow: hidden;
   cursor: pointer;
