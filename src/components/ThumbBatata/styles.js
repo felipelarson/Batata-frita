@@ -24,7 +24,7 @@ export const WrapperThumb = styled.figure`
   width: 640px;
   overflow: hidden;
   cursor: pointer;
-  transition: transform 100ms linear, box-shadow 200ms linear;
+  transition: transform 100ms linear, box-shadow 100ms linear;
 
   &:hover{
     --move: calc(var(--space) * -1);

@@ -9,7 +9,7 @@ const FooterBatata = styled.footer`
     background-color: var(--color-black-dark);
     color: var(--color-gray-light);
     padding: 20rem 0;
-    border-top: 2px solid var(--color-primary-medium);
+    border-top: 2px solid var(--color-mobile);
 
     & > ${Logo} {
         margin-bottom: 15rem;
